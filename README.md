@@ -92,3 +92,21 @@
 * `img(inline)` : src 이미지 경로 속성의 값으로 상대경로 방식 작성
 * `<img src="url" alt="">` : `src`에는 이미지 상대 경로, `alt`에는 이미지 정보 설명(alt 속성은 필수다!)
 * 이미지 사용 시 의미전달이 필요한 이미지와 아닌 이미지를 구분해서 alt에 정보를 작성해야한다.(버튼의 경우도 의미가 있기 때문에 의미 작성 필요)
+# 24.04.08
+## 이미지태그 `img`(inline)
+* 
+## figure, figcaption 태그
+* `figure(block)` : 문서 안 사진을 감싸는 틀
+* `figcaption(inline)` : 사진의 캡션
+* <figure>
+<img src="URL" alt="">
+<figcaption>caption</figcaption>
+</figure>
+## video 태그
+* `video(block)` : mp4, webm, ogg 확장자 사용
+* 비디오 작성법1 : (확장자가 하나인 경우) `<video src="동영상경로"></video>`
+* 비디오 작성법2 : (확장자 두 개 이상)
+`<video>
+	<source src="동영상경로" type="동영상타입1">
+	<source src="동영상경로" type="동영상타입2"> <!-- 확장자 타입 두개 이상일때 -->
+</video>`
